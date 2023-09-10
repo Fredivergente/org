@@ -30,7 +30,7 @@ function App() {
     equipo: "UX y Diseño",
     foto: "https://github.com/Fredivergente.png",
     nombre: "Alfredo Flores",
-    puesto: "Instructor en Alura Latam",
+    puesto: "Becario",
     fav: false
   },
   {
@@ -38,7 +38,7 @@ function App() {
     equipo: "Programación",
     foto: "https://github.com/Fredivergente.png",
     nombre: "Alfredo Flores",
-    puesto: "Head de Alura e Instructor",
+    puesto: "Head",
     fav: false
   },
   {
@@ -46,7 +46,7 @@ function App() {
     equipo: "Innovación y Gestión",
     foto: "https://github.com/Fredivergente.png",
     nombre: "Alfredo Flores",
-    puesto: "Dev FullStack",
+    puesto: "Instructor",
     fav: false
   }])
 

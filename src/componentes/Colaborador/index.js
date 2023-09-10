@@ -1,6 +1,6 @@
 import "./Colaborador.css"
-import { AiFillCloseCircle, AiOutlineHeart, AiFillHeart } from "react-icons/ai"
-
+import { AiOutlineHeart, AiFillHeart } from "react-icons/ai"
+import { BsFillCloudSlashFill } from "react-icons/bs";
 const Colaborador = (props) => {
     const { nombre, puesto, foto, equipo, id, fav } = props.datos
     const { colorPrimario, eliminarColaborador, like } = props
@@ -8,7 +8,7 @@ const Colaborador = (props) => {
     // condicion ? verdadero : falso
 
     return <div className="colaborador">
-        <AiFillCloseCircle className="eliminar" onClick={() => eliminarColaborador(id)} />
+        <BsFillCloudSlashFill className="eliminar" onClick={() => eliminarColaborador(id)} />
         <div className="encabezado" style={{ backgroundColor: colorPrimario }}>
             <img src={foto} alt={nombre} />
         </div>
